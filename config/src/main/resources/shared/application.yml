@@ -18,7 +18,7 @@ eureka:
     prefer-ip-address: true
   client:
     serviceUrl:
-      defaultZone: http://gen-eureka3fpnq3iv2r:8761/eureka/
+      defaultZone: http://gen-eurekahyps46iggm:8761/eureka/
 
 security:
   oauth2:
@@ -46,7 +46,7 @@ spring:
     sampler:
       probability: 1
   zipkin:
-    base-url: http://gen-zipkinvrp4otwhxj:9411
+    base-url: http://gen-zipkiny4af0t3q3q:9411
     enabled: true
     self-tracing:
       enabled: true
