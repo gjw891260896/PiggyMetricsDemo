@@ -2,7 +2,7 @@
 if test -z "$MONGODB_PASSWORD"; then
     echo "MONGODB_PASSWORD not defined"
     exit 1
-ficdmon
+fi
 
 auth="-u user -p $MONGODB_PASSWORD"
 
